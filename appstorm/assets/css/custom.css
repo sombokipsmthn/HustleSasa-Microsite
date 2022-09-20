@@ -168,3 +168,10 @@ blockquote figure aside svg {
 
 .navbar-nav li.drop-link {
     position: relative; }
+
+
+.blockquote .ts-block {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+
+ }
