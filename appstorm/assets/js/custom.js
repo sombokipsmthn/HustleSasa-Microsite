@@ -463,3 +463,24 @@ function simpleMap(latitude, longitude, markerImage, mapStyle, mapElement, marke
         draggable: markerDrag
     });
 }
+
+/*-------------------------------------------------*/
+	/* =  nav animate
+	/*-------------------------------------------------*/
+
+	var ToogleMenu = $('a.open-close-menu');
+
+	ToogleMenu.on('click', function(event) {
+		event.preventDefault();
+
+		var MainMenu = $('.navbar-nav'),
+			$this = $(this);
+		if ( !$this.hasClass('opened') ) {
+			$this.addClass('opened');
+			MainMenu.addClass('active');
+		} else {
+			$this.removeClass('opened');
+			MainMenu.removeClass('active');
+		}
+	});
+
