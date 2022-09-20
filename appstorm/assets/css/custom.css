@@ -1,6 +1,7 @@
 .ts-font-color__primary {
     color: #63c39e;
 }
+
 a {
     color: #63c39e;
     transition: .3s ease;
@@ -10,6 +11,7 @@ a:hover {
     color: rgb(237, 44, 66);
     text-decoration: none;
 }
+
 blockquote figure aside {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'  width='52' height='62'%3E%3cpath fill='%23f26d7d' d='M51 29.1c5.8 16.5-7.4 33-23.7 32.6 -2.5 0-4.9-0.3-7.2-1 -9.2-2.5-16.5-9.8-19-19C0.4 39.5 0 37 0 34.5 0 21.7 4.9 6.1 18.1 1.1 32.9-4.6 44.4 12.7 49.3 24 50 25.7 50.5 27.4 51 29.1z'/%3E%3c/svg%3E");
     background-repeat: no-repeat;
@@ -21,11 +23,14 @@ blockquote figure aside {
     right: -0.625rem;
     z-index: 2;
 }
+
 blockquote figure aside svg {
     fill: #63c39e;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
     /*background-color: darken( var(--color-primary), 20% );
     border-color: darken( var(--color-primary), 20% );*/
     background-color: #63c39e;
@@ -39,14 +44,15 @@ blockquote figure aside svg {
     color: #fff;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
     background-color: rgb(237, 44, 66);
     border-color: rgb(237, 44, 66);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
+.show>.btn-primary.dropdown-toggle:focus {
     background-color: rgb(237, 44, 66);
     border-color: rgb(225, 20, 44);
     box-shadow: 0 .1875rem .9375rem rgba(0, 0, 0, .2);
@@ -54,7 +60,7 @@ blockquote figure aside svg {
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
+.show>.btn-primary.dropdown-toggle {
     background-color: rgb(237, 44, 66);
     border-color: rgb(237, 44, 66);
     box-shadow: 0 .1875rem .9375rem rgba(0, 0, 0, .2);
@@ -75,6 +81,7 @@ blockquote figure aside svg {
     border-color: #63c39e;
     box-shadow: 0 0 0 .2rem rgba(242, 109, 125, .5);
 }
+
 .ts-item-header .icon .step {
     background-color: #63c39e;
     bottom: 0;
@@ -100,6 +107,7 @@ blockquote figure aside svg {
 .progress .progress-bar {
     background-color: #63c39e;
 }
+
 
 /*-------------------------------------------
   -- Promo Numbers
@@ -163,24 +171,43 @@ blockquote figure aside svg {
 
 .ts-background {
     background-color: #63c39e;
-
 }
 
 .navbar-nav li.drop-link {
-    position: relative; }
-
+    position: relative;
+}
 
 .blockquote .ts-block {
     padding-bottom: 50px !important;
     padding-top: 50px !important;
+}
 
- }
-
- video {
+video {
     object-fit: cover;
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-  }
+}
+
+.d-inline .btn.lev1 {
+    margin: 10px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.d-inline .btn.lev2 {
+    margin: 10px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.owl-item h5 {
+    padding-top: 20px !important;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
