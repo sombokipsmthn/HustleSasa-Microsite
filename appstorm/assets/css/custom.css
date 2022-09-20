@@ -175,3 +175,12 @@ blockquote figure aside svg {
     padding-top: 50px !important;
 
  }
+
+ video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
