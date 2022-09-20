@@ -113,29 +113,8 @@ blockquote figure aside svg {
   -- Promo Numbers
 -------------------------------------------*/
 
-.ts-promo-numbers h2 {
-    font-weight: normal;
-}
-
-.ts-promo-numbers h3 {
-    font-weight: normal;
-}
-
-.ts-promo-number {
-    position: relative;
-}
-
 .ts-promo-number .ts-promo-number-divider:after {
-    content: "";
-    bottom: 0;
     border: .125rem solid #63c39e;
-    border-radius: 50%;
-    height: .625rem;
-    margin: auto;
-    position: absolute;
-    right: -0.3125rem;
-    top: 0;
-    width: .625rem;
 }
 
 .nav-tabs .nav-link.active {
@@ -173,22 +152,9 @@ blockquote figure aside svg {
     background-color: #63c39e;
 }
 
-.navbar-nav li.drop-link {
-    position: relative;
-}
-
 .blockquote .ts-block {
     padding-bottom: 50px !important;
     padding-top: 50px !important;
-}
-
-video {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
 
 .d-inline .btn.lev1 {
@@ -210,4 +176,26 @@ video {
     font-weight: 500;
     line-height: 1.2;
     color: inherit;
+}
+
+
+/*-------------------------------------------
+  -- Masonry Grid
+-------------------------------------------*/
+
+.slide-item-all {
+    max-width: 250px;
+    margin-bottom: 40px;
+}
+
+.grid-container .div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 190px);
+    padding: 20px;
+    gap: 20px;
 }
