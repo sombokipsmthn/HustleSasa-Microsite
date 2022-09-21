@@ -207,3 +207,7 @@ iframe:focus {
 iframe[seamless] {
     display: block;
 }
+
+.ts-hero2-slider {
+    height: 30% !important;
+}
