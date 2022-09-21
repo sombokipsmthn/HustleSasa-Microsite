@@ -199,3 +199,11 @@ blockquote figure aside svg {
     padding: 20px;
     gap: 20px;
 }
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
