@@ -1,6 +1,7 @@
 .ts-font-color__primary {
     color: #63c39e;
 }
+
 a {
     color: #63c39e;
     transition: .3s ease;
@@ -10,6 +11,7 @@ a:hover {
     color: rgb(237, 44, 66);
     text-decoration: none;
 }
+
 blockquote figure aside {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'  width='52' height='62'%3E%3cpath fill='%23f26d7d' d='M51 29.1c5.8 16.5-7.4 33-23.7 32.6 -2.5 0-4.9-0.3-7.2-1 -9.2-2.5-16.5-9.8-19-19C0.4 39.5 0 37 0 34.5 0 21.7 4.9 6.1 18.1 1.1 32.9-4.6 44.4 12.7 49.3 24 50 25.7 50.5 27.4 51 29.1z'/%3E%3c/svg%3E");
     background-repeat: no-repeat;
@@ -21,11 +23,14 @@ blockquote figure aside {
     right: -0.625rem;
     z-index: 2;
 }
+
 blockquote figure aside svg {
     fill: #63c39e;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
     /*background-color: darken( var(--color-primary), 20% );
     border-color: darken( var(--color-primary), 20% );*/
     background-color: #63c39e;
@@ -39,14 +44,15 @@ blockquote figure aside svg {
     color: #fff;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
     background-color: rgb(237, 44, 66);
     border-color: rgb(237, 44, 66);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
+.show>.btn-primary.dropdown-toggle:focus {
     background-color: rgb(237, 44, 66);
     border-color: rgb(225, 20, 44);
     box-shadow: 0 .1875rem .9375rem rgba(0, 0, 0, .2);
@@ -54,7 +60,7 @@ blockquote figure aside svg {
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
+.show>.btn-primary.dropdown-toggle {
     background-color: rgb(237, 44, 66);
     border-color: rgb(237, 44, 66);
     box-shadow: 0 .1875rem .9375rem rgba(0, 0, 0, .2);
@@ -75,6 +81,7 @@ blockquote figure aside svg {
     border-color: #63c39e;
     box-shadow: 0 0 0 .2rem rgba(242, 109, 125, .5);
 }
+
 .ts-item-header .icon .step {
     background-color: #63c39e;
     bottom: 0;
@@ -101,33 +108,13 @@ blockquote figure aside svg {
     background-color: #63c39e;
 }
 
+
 /*-------------------------------------------
   -- Promo Numbers
 -------------------------------------------*/
 
-.ts-promo-numbers h2 {
-    font-weight: normal;
-}
-
-.ts-promo-numbers h3 {
-    font-weight: normal;
-}
-
-.ts-promo-number {
-    position: relative;
-}
-
 .ts-promo-number .ts-promo-number-divider:after {
-    content: "";
-    bottom: 0;
     border: .125rem solid #63c39e;
-    border-radius: 50%;
-    height: .625rem;
-    margin: auto;
-    position: absolute;
-    right: -0.3125rem;
-    top: 0;
-    width: .625rem;
 }
 
 .nav-tabs .nav-link.active {
@@ -163,24 +150,221 @@ blockquote figure aside svg {
 
 .ts-background {
     background-color: #63c39e;
-
 }
-
-.navbar-nav li.drop-link {
-    position: relative; }
-
 
 .blockquote .ts-block {
     padding-bottom: 50px !important;
     padding-top: 50px !important;
+}
 
- }
+.d-inline .btn.lev1 {
+    margin: 10px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
 
- video {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
+.d-inline .btn.lev2 {
+    margin: 10px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.owl-item h5 {
+    padding-top: 20px !important;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+
+/*-------------------------------------------
+  -- Masonry Grid
+-------------------------------------------*/
+
+.slide-item-all {
+    max-width: 250px;
+    margin-bottom: 40px;
+}
+
+.grid-container .div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 190px);
+    padding: 20px;
+    gap: 20px;
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
+
+.ts-hero2-slider {
+    height: 30% !important;
+}
+
+
+/*==================================latest blog================================== */
+
+.news-block-one {
+    position: relative;
+}
+
+.news-block-one .inner-box {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.news-block-one .inner-box .image {
+    display: inline-block;
+    position: relative;
+}
+
+.news-block-one .inner-box .date {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #fff;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+
+.news-block-one .lower-content {
+    position: relative;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+
+.news-block-one h5 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #e7003e;
+    margin-bottom: 5px;
+}
+
+.news-block-one .post-meta {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.news-block-one h4 {
+    color: #242424;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: .5s ease;
+}
+
+.news-block-one h4:hover {
+    color: #63c39e;
+}
+
+.news-block-two {
+    position: relative;
+}
+
+.news-block-two .inner-box {
+    position: relative;
+    margin-bottom: 40px;
+    border: 2px solid #f4f4f4;
+    margin-right: 40px;
+    padding: 20px 30px 40px;
+}
+
+.news-block-two .lower-content {
+    position: relative;
+    margin-top: 30px;
+}
+
+.news-block-two h5 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #e7003e;
+    margin-bottom: 5px;
+}
+
+.news-block-two .post-meta {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.news-block-two h4 {
+    color: #242424;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: .5s ease;
+}
+
+.news-block-two h4:hover {
+    color: #63c39e;
+}
+
+.news-block-three {
+    position: relative;
+}
+
+.news-block-three .inner-box {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.news-block-three .inner-box .image {
+    display: inline-block;
+    position: relative;
+}
+
+.news-block-three .inner-box .date {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #fff;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+
+.news-block-three .lower-content {
+    position: relative;
+    padding: 30px 24px 20px;
+    border: 1px solid #f4f4f4;
+}
+
+.news-block-three h5 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #e7003e;
+    margin-bottom: 5px;
+}
+
+.news-block-one .post-meta {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.news-block-three h4 {
+    color: #242424;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: .5s ease;
+}
+
+.news-block-three h4:hover {
+    color: #63c39e;
+}
