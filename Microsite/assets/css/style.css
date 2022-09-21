@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------------------------------------------------
-Project:	    AppStorm
+Project:	    
 Version:        1.0.0
 
 Default Color   #f26d7d;
@@ -8,6 +8,7 @@ Body copy:		'Poppins', sans-serif; 15px;
 Headers:		'Poppins', sans-serif;
 
 ----------------------------------------------------------------------------------------------------------------------*/
+
 
 /*----------------------------------------------------------------------------------------------------------------------
 [Table of contents]
@@ -78,9 +79,11 @@ E. Template Specific Elements
 
 ----------------------------------------------------------------------------------------------------------------------*/
 
+
 /***********************************************************************************************************************
 A. Basic Styling
 ***********************************************************************************************************************/
+
 
 /*-------------------------------------------
   -- Styling - Colors, Font Size, Font Family
@@ -126,15 +129,19 @@ h6 {
     font-size: .9375rem;
 }
 
+
 /* NEW */
+
 
 /***********************************************************************************************************************
 B. Helpers
 ***********************************************************************************************************************/
 
+
 /*-------------------------------------------
   -- Animations
 -------------------------------------------*/
+
 
 /* Fade In Up */
 
@@ -143,7 +150,6 @@ B. Helpers
         opacity: 0;
         transform: translate3d(0, 1.25rem, 0);
     }
-
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
@@ -154,6 +160,7 @@ B. Helpers
     animation-name: ts-fadeInUp;
 }
 
+
 /* Fade In Down */
 
 @keyframes ts-fadeInDown {
@@ -161,7 +168,6 @@ B. Helpers
         opacity: 0;
         transform: translate3d(0, -1.25rem, 0);
     }
-
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
@@ -172,6 +178,7 @@ B. Helpers
     animation-name: ts-fadeInDown;
 }
 
+
 /* Fade In Left */
 
 @keyframes ts-fadeInLeft {
@@ -179,7 +186,6 @@ B. Helpers
         opacity: 0;
         transform: translate3d(-1.25rem, 0, 0);
     }
-
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
@@ -190,6 +196,7 @@ B. Helpers
     animation-name: ts-fadeInLeft;
 }
 
+
 /* Fade In Right */
 
 @keyframes ts-fadeInRight {
@@ -197,7 +204,6 @@ B. Helpers
         opacity: 0;
         transform: translate3d(1.25rem, 0, 0);
     }
-
     to {
         opacity: 1;
         transform: translate3d(0, 0, 0);
@@ -208,6 +214,7 @@ B. Helpers
     animation-name: ts-fadeInRight;
 }
 
+
 /* Zoom In */
 
 @keyframes ts-zoomIn {
@@ -215,7 +222,6 @@ B. Helpers
         opacity: 0;
         transform: scale(.5);
     }
-
     to {
         opacity: 1;
         transform: scale(1);
@@ -226,6 +232,7 @@ B. Helpers
     animation-name: ts-zoomIn;
 }
 
+
 /* Zoom In Short */
 
 @keyframes ts-zoomInShort {
@@ -233,7 +240,6 @@ B. Helpers
         opacity: 0;
         transform: scale(.9);
     }
-
     to {
         opacity: 1;
         transform: scale(1);
@@ -243,6 +249,7 @@ B. Helpers
 .ts-zoomInShort {
     animation-name: ts-zoomInShort;
 }
+
 
 /*-------------------------------------------
   -- Borders
@@ -293,6 +300,7 @@ B. Helpers
     color: #f26d7d;
 }
 
+
 /*-------------------------------------------
   -- Background
 -------------------------------------------*/
@@ -317,7 +325,8 @@ B. Helpers
     width: 100%;
 }
 
-.ts-background-image, .ts-img-into-bg {
+.ts-background-image,
+.ts-img-into-bg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -326,7 +335,8 @@ B. Helpers
     width: 100%;
 }
 
-.ts-background-image img, .ts-img-into-bg img {
+.ts-background-image img,
+.ts-img-into-bg img {
     display: none;
 }
 
@@ -395,6 +405,7 @@ B. Helpers
     border-color: rgba(255, 255, 255, .1);
 }
 
+
 /*-------------------------------------------
   -- Height
 -------------------------------------------*/
@@ -459,6 +470,7 @@ B. Helpers
     height: 62.5rem;
 }
 
+
 /*-------------------------------------------
   -- Margin
 -------------------------------------------*/
@@ -479,7 +491,9 @@ B. Helpers
     margin-left: 0 !important;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- No Gutters - Removes padding from col*
@@ -490,12 +504,15 @@ B. Helpers
     margin-left: 0;
 }
 
-.no-gutters > .col, .no-gutters > [class*="col-"] {
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
     padding-right: 0;
     padding-left: 0;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Opacity
@@ -541,6 +558,7 @@ B. Helpers
     opacity: .9;
 }
 
+
 /*-------------------------------------------
   -- Overflow
 -------------------------------------------*/
@@ -553,7 +571,9 @@ B. Helpers
     overflow: visible;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Padding
@@ -575,9 +595,11 @@ B. Helpers
     padding-left: 0 !important;
 }
 
+
 /*-------------------------------------------
   -- Position
 -------------------------------------------*/
+
 
 /* Top */
 
@@ -593,6 +615,7 @@ B. Helpers
     top: 100%;
 }
 
+
 /* Right */
 
 .ts-right__0 {
@@ -606,6 +629,7 @@ B. Helpers
 .ts-right__100 {
     right: 100%;
 }
+
 
 /* Bottom */
 
@@ -621,6 +645,7 @@ B. Helpers
     bottom: 100%;
 }
 
+
 /* Left */
 
 .ts-left__0 {
@@ -635,7 +660,9 @@ B. Helpers
     left: 100%;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Shadow
@@ -656,6 +683,7 @@ B. Helpers
 .ts-shadow__none {
     box-shadow: none !important;
 }
+
 
 /*-------------------------------------------
   -- Shape Mask
@@ -683,7 +711,9 @@ B. Helpers
     width: 100%;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Typography
@@ -721,23 +751,27 @@ p {
     font-size: .8125rem !important;
 }
 
+
 /*-------------------------------------------
   -- Title
 -------------------------------------------*/
-
 
 .ts-title h5 {
     font-weight: normal;
     opacity: .5;
 }
 
-/* NEW */
 
 /* NEW */
+
+
+/* NEW */
+
 
 /*-------------------------------------------
   -- Utilities
 -------------------------------------------*/
+
 
 /* Social Icons */
 
@@ -749,6 +783,7 @@ p {
     padding: .125rem .25rem;
     color: #9e9e9e;
 }
+
 
 /* Overlay */
 
@@ -768,11 +803,13 @@ p {
     z-index: -1;
 }
 
+
 /* Flip x */
 
 .ts-flip-x {
     transform: scaleY(-1);
 }
+
 
 /* Flip Y */
 
@@ -780,7 +817,9 @@ p {
     transform: scaleX(-1);
 }
 
+
 /* NEW flip */
+
 
 /*-------------------------------------------
   -- Width
@@ -834,6 +873,7 @@ p {
     width: auto !important;
 }
 
+
 /*-------------------------------------------
   -- Z-index
 -------------------------------------------*/
@@ -858,11 +898,14 @@ p {
     z-index: 1000 !important;
 }
 
+
 /* NEW */
+
 
 /***********************************************************************************************************************
 C. Components
 ***********************************************************************************************************************/
+
 
 /*-------------------------------------------
   -- Block
@@ -882,6 +925,7 @@ C. Components
 section {
     position: relative;
 }
+
 
 /*-------------------------------------------
   -- Blockquote
@@ -954,7 +998,8 @@ blockquote h6 {
     display: none;
 }
 
-.ts-carousel-blockquote .owl-item figure, .ts-carousel-blockquote .owl-item p,
+.ts-carousel-blockquote .owl-item figure,
+.ts-carousel-blockquote .owl-item p,
 .ts-carousel-blockquote .owl-item .blockquote-footer {
     opacity: 0;
     transition: .6s ease;
@@ -976,7 +1021,9 @@ blockquote h6 {
     transition-delay: .2s;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Box
@@ -989,6 +1036,7 @@ blockquote h6 {
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
     padding: 1.5625rem;
 }
+
 
 /*-------------------------------------------
   -- Buttons
@@ -1065,7 +1113,9 @@ blockquote h6 {
     opacity: 1;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
     /*background-color: darken( var(--color-primary), 20% );
     border-color: darken( var(--color-primary), 20% );*/
     background-color: #f26d7d;
@@ -1079,14 +1129,15 @@ blockquote h6 {
     color: #fff;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
     background-color: rgb(237, 44, 66);
     border-color: rgb(237, 44, 66);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
+.show>.btn-primary.dropdown-toggle:focus {
     background-color: rgb(237, 44, 66);
     border-color: rgb(225, 20, 44);
     box-shadow: 0 .1875rem .9375rem rgba(0, 0, 0, .2);
@@ -1094,7 +1145,7 @@ blockquote h6 {
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
+.show>.btn-primary.dropdown-toggle {
     background-color: rgb(237, 44, 66);
     border-color: rgb(237, 44, 66);
     box-shadow: 0 .1875rem .9375rem rgba(0, 0, 0, .2);
@@ -1146,6 +1197,7 @@ blockquote h6 {
     border-color: rgba(25, 25, 25, .1);
 }
 
+
 /*-------------------------------------------
   -- Card
 -------------------------------------------*/
@@ -1162,15 +1214,17 @@ blockquote h6 {
     margin-bottom: 1.25rem;
 }
 
-.card-body, .card-footer, .card-header {
+.card-body,
+.card-footer,
+.card-header {
     padding: 1.5625rem;
 }
 
-.ts-cards-same-height > div[class*='col-'] {
+.ts-cards-same-height>div[class*='col-'] {
     display: flex;
 }
 
-.ts-cards-same-height > div[class*='col-'] .card {
+.ts-cards-same-height>div[class*='col-'] .card {
     width: 100%;
 }
 
@@ -1225,6 +1279,7 @@ blockquote h6 {
     width: 10rem;
 }
 
+
 /*-------------------------------------------
   -- Forms
 -------------------------------------------*/
@@ -1272,6 +1327,7 @@ form.ts-labels-inside-input .form-group label.focused,
     font-size: .8125rem;
 }
 
+
 /*-------------------------------------------
   -- HR
 -------------------------------------------*/
@@ -1280,7 +1336,9 @@ hr {
     border-top-width: .125rem;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Inputs
@@ -1291,13 +1349,16 @@ hr {
     box-shadow: none;
 }
 
-.ts-inputs__transparent input, .ts-inputs__transparent textarea {
+.ts-inputs__transparent input,
+.ts-inputs__transparent textarea {
     background-color: transparent;
     color: #fff;
 }
 
-.ts-inputs__transparent input:active, .ts-inputs__transparent input:focus,
-.ts-inputs__transparent textarea:active, .ts-inputs__transparent textarea:focus {
+.ts-inputs__transparent input:active,
+.ts-inputs__transparent input:focus,
+.ts-inputs__transparent textarea:active,
+.ts-inputs__transparent textarea:focus {
     background-color: transparent;
     color: #fff;
 }
@@ -1337,6 +1398,7 @@ hr {
     flex: 1 1 auto;
 }
 
+
 /*-------------------------------------------
   -- List
 -------------------------------------------*/
@@ -1355,7 +1417,9 @@ ul.ts-list-divided li:last-child {
     border-bottom: none;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Loading Screen
@@ -1399,6 +1463,7 @@ body.has-loading-screen.loading-done:after {
     opacity: 0;
 }
 
+
 /*-------------------------------------------
   -- Map
 -------------------------------------------*/
@@ -1415,9 +1480,12 @@ body.has-loading-screen.loading-done:after {
     display: none !important;
 }
 
-.map .gmnoprint a, .map .gmnoprint span, .map .gm-style-cc {
+.map .gmnoprint a,
+.map .gmnoprint span,
+.map .gm-style-cc {
     display: none;
 }
+
 
 /*-------------------------------------------
   -- Hero
@@ -1432,6 +1500,7 @@ body.has-loading-screen.loading-done:after {
 #ts-hero .ts-background-image {
     background-position: top center;
 }
+
 
 /*-------------------------------------------
   -- Navbar
@@ -1463,13 +1532,18 @@ body.has-loading-screen.loading-done:after {
     padding-bottom: .3125rem;
 }
 
+
 /*XL*/
+
 
 /*LG*/
 
+
 /*MD*/
 
+
 /*SM*/
+
 
 /*-------------------------------------------
   -- Page
@@ -1479,6 +1553,7 @@ body.has-loading-screen.loading-done:after {
     overflow: hidden;
 }
 
+
 /*-------------------------------------------
   -- Partners
 -------------------------------------------*/
@@ -1487,6 +1562,7 @@ body.has-loading-screen.loading-done:after {
     display: block;
     padding: .625rem .3125rem;
 }
+
 
 /*-------------------------------------------
   -- Plugins
@@ -1499,6 +1575,7 @@ body.has-loading-screen.loading-done:after {
 iframe div {
     border: none;
 }
+
 
 /*-------------------------------------------
   -- Progress
@@ -1514,6 +1591,7 @@ iframe div {
 .progress .progress-bar {
     background-color: #f26d7d;
 }
+
 
 /*-------------------------------------------
   -- Promo Numbers
@@ -1544,6 +1622,7 @@ iframe div {
     width: .625rem;
 }
 
+
 /*-------------------------------------------
   -- Select
 -------------------------------------------*/
@@ -1556,12 +1635,13 @@ select.form-control {
     margin-top: -0.125rem;
     padding: .5rem;
     -webkit-appearance: none;
-       -moz-appearance: none;
+    -moz-appearance: none;
     text-indent: .0625rem;
     text-overflow: '';
 }
 
-select.form-control:focus, select.form-control:hover {
+select.form-control:focus,
+select.form-control:hover {
     box-shadow: .375rem .3125rem 1.5625rem rgba(0, 0, 0, .2);
 }
 
@@ -1588,6 +1668,7 @@ select::-ms-expand {
     content: "\f0dd";
 }
 
+
 /*-------------------------------------------
   -- Slider
 -------------------------------------------*/
@@ -1599,6 +1680,7 @@ select::-ms-expand {
 .ts-slider div {
     height: 100% !important;
 }
+
 
 /*-------------------------------------------
   -- Tabs
@@ -1632,15 +1714,19 @@ select::-ms-expand {
     opacity: 1;
 }
 
+
 /* NEW */
+
 
 /***********************************************************************************************************************
 D. Plugins Styles
 ***********************************************************************************************************************/
 
+
 /*-------------------------------------------
   -- Magnific Popup
 -------------------------------------------*/
+
 
 /* overlay at start */
 
@@ -1648,9 +1734,10 @@ D. Plugins Styles
     opacity: 0;
     background-color: #000;
     -webkit-transition: all .15s ease-out;
-       -moz-transition: all .15s ease-out;
-            transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    transition: all .15s ease-out;
 }
+
 
 /* overlay animate in */
 
@@ -1658,20 +1745,23 @@ D. Plugins Styles
     opacity: .8;
 }
 
+
 /* overlay animate out */
 
 .mfp-fade.mfp-bg.mfp-removing {
     opacity: 0;
 }
 
+
 /* content at start */
 
 .mfp-fade.mfp-wrap .mfp-content {
     opacity: 0;
     -webkit-transition: all .15s ease-out;
-       -moz-transition: all .15s ease-out;
-            transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    transition: all .15s ease-out;
 }
+
 
 /* content animate it */
 
@@ -1679,11 +1769,13 @@ D. Plugins Styles
     opacity: 1;
 }
 
+
 /* content animate out */
 
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
     opacity: 0;
 }
+
 
 /*-------------------------------------------
   -- Owl Carousel
@@ -1722,7 +1814,8 @@ D. Plugins Styles
     width: 100%;
 }
 
-.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
     background-color: rgba(25, 25, 25, .6);
     border-radius: 50%;
     box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .1);
@@ -1735,7 +1828,8 @@ D. Plugins Styles
     width: 2.5rem;
 }
 
-.owl-carousel .owl-nav .owl-prev:after, .owl-carousel .owl-nav .owl-next:after {
+.owl-carousel .owl-nav .owl-prev:after,
+.owl-carousel .owl-nav .owl-next:after {
     font-family: "Font Awesome\ 5 Free";
     font-weight: 900;
     font-size: 1.375rem;
@@ -1743,7 +1837,8 @@ D. Plugins Styles
     -webkit-font-smoothing: antialiased;
 }
 
-.owl-carousel .owl-nav .owl-prev:hover, .owl-carousel .owl-nav .owl-next:hover {
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
     background-color: rgba(25, 25, 25, .8);
 }
 
@@ -1765,9 +1860,11 @@ D. Plugins Styles
     margin-right: .0625rem;
 }
 
+
 /***********************************************************************************************************************
 E. Template Specific Elements
 ***********************************************************************************************************************/
+
 
 /*-------------------------------------------
   -- Centered Slider
@@ -1819,6 +1916,7 @@ E. Template Specific Elements
     left: 1.25rem;
 }
 
+
 /*-------------------------------------------
   -- Hero Form Floated
 -------------------------------------------*/
@@ -1835,6 +1933,7 @@ E. Template Specific Elements
     padding: 1.875rem 3.75rem;
 }
 
+
 /*-------------------------------------------
   -- Price Box
 -------------------------------------------*/
@@ -1850,7 +1949,9 @@ E. Template Specific Elements
     transform: scale(1.2);
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Time Line
@@ -1901,7 +2002,6 @@ E. Template Specific Elements
     position: absolute;
     width: .75rem;
 }
-
 
 .ts-time-line__horizontal .ts-time-line__item .ts-box:after {
     border-color: #fff transparent transparent transparent;
@@ -1957,10 +2057,11 @@ E. Template Specific Elements
     display: flex;
 }
 
-.ts-time-line__horizontal .ts-sly-frame.ts-loaded > ul {
+.ts-time-line__horizontal .ts-sly-frame.ts-loaded>ul {
     align-items: flex-end;
     display: flex;
 }
+
 
 /*-------------------------------------------
   -- SVG Shapes
@@ -1998,11 +2099,14 @@ figure.icon {
     width: 100%;
 }
 
+
 /* NEW */
+
 
 /*-------------------------------------------
   -- Other
 -------------------------------------------*/
+
 
 /* Footer push up */
 
@@ -2021,16 +2125,20 @@ figure.icon {
     transform: translateY(0);
 }
 
+
 /* Hero navigation arrows */
 
-#ts-hero .owl-prev, #ts-hero .owl-next {
+#ts-hero .owl-prev,
+#ts-hero .owl-next {
     background-color: transparent;
     border: .125rem solid rgba(255, 255, 255, .8);
 }
 
-#ts-hero .owl-prev:after, #ts-hero .owl-next:after {
+#ts-hero .owl-prev:after,
+#ts-hero .owl-next:after {
     line-height: 2.25rem;
 }
+
 
 /* Hero slider height */
 
@@ -2046,35 +2154,27 @@ figure.icon {
     html {
         font-size: 85%;
     }
-
     h1 {
         font-size: 2.75rem;
     }
-
     h2 {
         font-size: 1.875rem;
     }
-
     h3 {
         font-size: 1.25rem;
     }
-
     .ts-column-count-sm-1 {
         column-count: 1;
     }
-
     .ts-column-count-sm-2 {
         column-count: 2;
     }
-
     .ts-column-count-sm-3 {
         column-count: 3;
     }
-
     .ts-column-count-sm-4 {
         column-count: 4;
     }
-
     .ts-promo-numbers h2 {
         font-size: 2.375rem;
     }
@@ -2084,35 +2184,27 @@ figure.icon {
     html {
         font-size: 90%;
     }
-
     h1 {
         font-size: 3.25rem;
     }
-
     h2 {
         font-size: 2rem;
     }
-
     h3 {
         font-size: 1.375rem;
     }
-
     .ts-column-count-md-1 {
         column-count: 1;
     }
-
     .ts-column-count-md-2 {
         column-count: 2;
     }
-
     .ts-column-count-md-3 {
         column-count: 3;
     }
-
     .ts-column-count-md-4 {
         column-count: 4;
     }
-
     .ts-promo-numbers h2 {
         font-size: 2.5rem;
     }
@@ -2122,44 +2214,34 @@ figure.icon {
     html {
         font-size: 95%;
     }
-
     h1 {
         font-size: 3.5rem;
     }
-
     h2 {
         font-size: 2.125rem;
     }
-
     h3 {
         font-size: 1.375rem;
     }
-
     .ts-column-count-lg-1 {
         column-count: 1;
     }
-
     .ts-column-count-lg-2 {
         column-count: 2;
     }
-
     .ts-column-count-lg-3 {
         column-count: 3;
     }
-
     .ts-column-count-lg-4 {
         column-count: 4;
     }
-
     .ts-block {
         padding-bottom: 6.25rem;
         padding-top: 6.25rem;
     }
-
     .ts-card__image {
         height: 12.5rem;
     }
-
     .ts-promo-numbers h2 {
         font-size: 2.75rem;
     }
@@ -2169,60 +2251,46 @@ figure.icon {
     html {
         font-size: 100%;
     }
-
     h1 {
         font-size: 4rem;
     }
-
     h2 {
         font-size: 2.625rem;
     }
-
     h3 {
         font-size: 1.625rem;
     }
-
     .ts-column-count-xl-1 {
         column-count: 1;
     }
-
     .ts-column-count-xl-2 {
         column-count: 2;
     }
-
     .ts-column-count-xl-3 {
         column-count: 3;
     }
-
     .ts-column-count-xl-4 {
         column-count: 4;
     }
-
     .ts-block {
         padding-bottom: 8.125rem;
         padding-top: 8.125rem;
     }
-
     .ts-card__image {
         height: 15.625rem;
     }
-
     .navbar.navbar-expand-xl .ts-background {
         opacity: 0;
     }
-
     .ts-promo-numbers h2 {
         font-size: 3rem;
     }
-
     .ts-carousel-centered .owl-nav .owl-next {
         right: 5rem;
     }
-
     .ts-carousel-centered .owl-nav .owl-prev {
         left: 5rem;
     }
-
     .floated form {
         padding: 2.5rem 5rem;
     }
@@ -2233,31 +2301,24 @@ figure.icon {
         font-size: 2.625rem;
         margin-bottom: 1.25rem;
     }
-
     h2 {
         font-size: 1.875rem;
     }
-
     h3 {
         font-size: 1.25rem;
     }
-
     [class*="ts-column-count-"] {
         column-count: 1;
     }
-
     .ts-xs-text-center {
         text-align: center !important;
     }
-
     .ts-title {
         margin-bottom: 2.5rem;
     }
-
     .ts-promo-numbers h2 {
         font-size: 2.25rem;
     }
-
     .ts-promo-number {
         margin-bottom: 1.875rem;
     }
@@ -2267,11 +2328,9 @@ figure.icon {
     h1 {
         margin-bottom: 1.875rem;
     }
-
     .ts-title {
         margin-bottom: 5rem;
     }
-
     .ts-block-inside {
         padding: 2.5rem;
     }
@@ -2281,19 +2340,15 @@ figure.icon {
     h1 {
         margin-bottom: 2.5rem;
     }
-
     .ts-title {
         margin-bottom: 6.25rem;
     }
-
     .ts-block-inside {
         padding: 3.75rem;
     }
-
     .navbar.navbar-expand-lg .ts-background {
         opacity: 0;
     }
-
     .floated {
         position: absolute;
     }
@@ -2309,7 +2364,6 @@ figure.icon {
     h4 {
         font-size: 1.25rem;
     }
-
     .navbar.navbar-expand-md .ts-background {
         opacity: 0;
     }
@@ -2325,11 +2379,9 @@ figure.icon {
     .navbar.navbar-expand-sm .ts-background {
         opacity: 0;
     }
-
     .ts-carousel-centered .owl-nav .owl-next {
         right: 2.5rem;
     }
-
     .ts-carousel-centered .owl-nav .owl-prev {
         left: 2.5rem;
     }
