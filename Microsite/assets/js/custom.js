@@ -488,3 +488,24 @@ $(function() {
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 500, 'linear');
     });
 });
+
+/*-- View More --------------------------------------------------------------------------------------------- --*/
+
+function hideElements() {
+    $('#collapse-list a').each(function(i) {
+        if (i > 2) {
+            $(this).slideToggle(200);
+        }
+    });
+}
+
+hideElements();
+var toggleStatus = true;
+$('#toggle-collapse').click(function() {
+    if (toggleStatus) {
+        $('#collapse-list .list-group-item:not(:visible)').slideToggle(200);
+    } else {
+        hideElements();
+    }
+    toggleStatus = !toggleStatus;
+});
