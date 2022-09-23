@@ -493,7 +493,7 @@ $(function() {
 
 function hideElements() {
     $('#collapse-list a').each(function(i) {
-        if (i > 2) {
+        if (i > 4) {
             $(this).slideToggle(200);
         }
     });
