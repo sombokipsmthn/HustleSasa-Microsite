@@ -25,26 +25,35 @@
         <header id="ts-hero" class="ts-full-screen" data-bg-parallax="scroll" data-bg-parallax-speed="3" style="max-height: 600px;">
 
             <!--NAVIGATION ******************************************************************************************-->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top ts-separate-bg-element" data-bg-color="#1a1360">
-                <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" data-bg-color="#63c39e">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo-w.png" style="max-height: 80px;" alt=""></a>
+                <!--end navbar-brand-->
 
-                    <a class="navbar-brand" href="#page-top">
-                        <img src="assets/img/logo-w.png" style="max-height: 80px;" alt="">
-                    </a>
-                    <!--end navbar-brand-->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkupt" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                    <!--end navbar-toggler-->
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <ul class="navbar-nav ml-auto">
-                            <li><a class="nav-item nav-link" href="index.html">Home</a> </li>
-                            <li><a class="nav-item nav-link" href="resourses.html">Resourcess</a> </li>
-                            <li><a class="nav-item nav-link" href="contact.html">Opportunities</a></li>
-                            <li><a class="nav-item nav-link active" href="about.html">About Us</a></li>
 
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="resourses.html">Resources </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="opportunities.html">Opportunities</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="about.html">Participants</a>
+                                <a class="dropdown-item" href="about2.html">Partners</a>
+                            </div>
+                        </li>
+                    </ul>
+
                 </div>
             </nav>
             <!--end navbar-->
@@ -54,8 +63,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-9">
 
-                        <h1>About</h1>
-                        <h3>Program Parners & Participants</h3>
+                        <h1>Program Participants</h1>
 
                     </div>
                     <!--end col-sm-7 col-md-7-->
@@ -72,12 +80,12 @@
 
             <div class="ts-background" data-bg-image-opacity=".6" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 <div class="ts-svg ts-z-index__2">
-                    <img src="assets/svg/wave-static-02.svg" class="w-100 position-absolute ts-bottom__0">
-                    <img src="assets/svg/wave-static-01.svg" class="w-100 position-absolute ts-bottom__0">
+                    <!-- <img src="assets/svg/wave-static-02.svg" class="w-100 position-absolute ts-bottom__0">
+                    <img src="assets/svg/wave-static-01.svg" class="w-100 position-absolute ts-bottom__0"> -->
                 </div>
                 <div class="owl-carousel ts-hero-slider" data-owl-loop="1">
-                    <div class="ts-background-image ts-parallax-element" data-bg-color="#63c39e" data-bg-image="assets/img/Image1.jpg" data-bg-blend-mode="multiply"></div>
-                    <div class="ts-background-image ts-parallax-element" data-bg-color="#63c39e" data-bg-image="assets/img/Image2.jpg" data-bg-blend-mode="multiply"></div>
+                    <div class="ts-background-image ts-parallax-element" data-bg-color="#" data-bg-image="assets/img/about.jpg" data-bg-blend-mode="multiply"></div>
+
                 </div>
             </div>
 
@@ -93,11 +101,7 @@
             <!--participants ********************************************************************************************-->
             <section id="participants" class="ts-block">
                 <div class="container">
-
-                    <div class="ts-title" style="color: #63c39e;">
-                        <h1>Program Participants</h1>
-                    </div>
-                    <div class="ts-title text-center">
+                    <div class="ts-title text-left">
                         <h4>
                             We’re proud to share that 60 creative businesses with different levels of experience, backgrounds and disciplines participated in the program. They are based in Kenya, Somalia, Sweden and Turkey with big plans to share their art with the world. You’re
                             encouraged to view, interact with or purchase their products and services directly from them.
@@ -295,90 +299,10 @@
                 </div>
             </section>
 
-            <!-- Program Partners ************************************************************************************-->
-            <section id="partners" class="ts-block">
-                <div class="container">
-                    <div class="ts-title" style="color: #63c39e;">
-                        <h1>Program Partners
-                        </h1>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row" style="padding-bottom: 100px;">
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-
-                            <h3>HustleSasa</h3>
-                            <p>
-                                HustleSasa is a mobile app that helps creators start, run and grow their business in one place. The app makes it easy for anyone to build their website, manage orders, accept payments, view insights, collect customer data and handle delivery - all from
-                                a smartphone. For more information, click the button below.
-
-                            </p>
-                            <a href="http://www.hustlesasa.com" class="btn btn-primary mb-4 ts-scroll">HustleSasa</a>
-                        </div>
-                        <!--end col-xl-5-->
-                        <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
-                            <div class="px-3">
-                                <img src="assets/img/Image1.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                            </div>
-                        </div>
-                        <!--end col-xl-7-->
-                    </div>
-                    <!--end row-->
-
-                    <div class="row" style="padding-bottom: 100px;">
-                        <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
-                            <div class="px-3">
-                                <img src="assets/img/Image3.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                            </div>
-                        </div>
-                        <!--end col-xl-7-->
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-
-                            <h3>CISP</h3>
-                            <p>
-                                CISP is an NGO that works to foster international cooperation and fight against social exclusion. The Kenya office has been working in various sectors of intervention ranging from Economic Empowerment, Education, Health, Protection of vulnerable groups
-                                including women and children, Livelihoods and Resilience, Arts and Culture. For more information, please click on the button below.
-
-                            </p>
-                            <a href="https://developmentofpeoples.org/en#" class="btn btn-primary mb-4 ts-scroll">CISP</a>
-                        </div>
-                        <!--end col-xl-5-->
-                    </div>
-                    <!--end row-->
-
-                    <div class="row" style="padding-bottom: 100px;">
-                        <div class="col-md-5 col-xl-5" data-animate="ts-fadeInUp" data-offset="100">
-
-                            <h3>ArtXChange</h3>
-                            <p>
-                                The project "ArtXchange: connecting creative youth in Africa and Europe" aims at improving the inclusion, empowerment and connection of young people in the creative sector in Africa (Kenya and Somalia) and Europe (Italy and Sweden), enhancing the potential
-                                of creative industries in promoting sustainable development, job creation, income opportunities and social inclusion. ArtXchange involves young creative professionals, youth organizations and civil society, promoting collaboration,
-                                capacity building and exchanges among target countries. To learn more, please click on the button below.
-
-
-                            </p>
-                            <a href="https://www.cisp.ngo/en/our-work/flagship-projects/artxchange-en" class="btn btn-primary mb-4 ts-scroll">ArtXChange</a>
-                        </div>
-                        <!--end col-xl-5-->
-                        <div class="col-md-7 col-xl-7 text-center" data-animate="ts-fadeInUp" data-delay="0.1s" data-offset="100">
-                            <div class="px-3">
-                                <img src="assets/img/Image2.jpg" class="mw-100 ts-shadow__lg ts-border-radius__md" alt="">
-                            </div>
-                        </div>
-                        <!--end col-xl-7-->
-
-                    </div>
-                    <!--end row-->
-                </div>
-
-                <!--end container-->
-            </section>
-            <!--End Program partners ********************************************************************************-->
-
         </main>
         <!--end #content-->
 
         <!--************ FOOTER *************************************************************************************-->
-
         <footer id="ts-footer">
 
             <section id="contact" class="ts-separate-bg-element" data-bg-image="assets/img/bg-desk.jpg" data-bg-image-opacity=".1" data-bg-color="#1b1464">
@@ -386,11 +310,11 @@
                     <div class="ts-box mb-0 p-5 ts-mt__n-10">
                         <div class="row">
                             <div class="col-md-6">
-                                <h3>HustleSasa Program</h3>
+                                <h3>HustleSasa</h3>
                                 <address>
                                     <figure>
                                         <div class="font-weight-bold">Contact:</div>
-                                        Lead - Stephanie Gogo
+                                        Program Lead - Stephanie Gogo
                                     </figure>
                                     <br>
                                     <figure>
@@ -412,7 +336,7 @@
                                 <address>
                                     <figure>
                                         <div class="font-weight-bold">Contact:</div>
-                                        Program Lead - Erika Mascaro
+                                        Project Lead - Erika Mascaro
                                     </figure>
                                     <br>
                                     <figure>
