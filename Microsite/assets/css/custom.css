@@ -479,3 +479,78 @@ iframe[seamless] {
         opacity: 0;
     }
 }--*/
+
+
+/*-----load more------*/
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 45%;
+    display: none;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding: 20px 30px 40px;
+}
+
+#loadMore {
+    width: 200px;
+    color: #63c39e;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: .3s;
+    border-radius: 6.25rem;
+    border-width: .125rem;
+    box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
+    font-weight: 600;
+    font-size: .9375rem;
+    padding: .5rem 1.25rem;
+    outline: none !important;
+}
+
+#loadMore:hover {
+    color: #fff;
+    background-color: #63c39e;
+    border-color: #63c39e;
+    box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .3);
+}
+
+.noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#loadMore {
+    color: #63c39e;
+    letter-spacing: auto;
+    animation: blur .75s ease-out;
+}
+
+.content {
+    color: rgb(0, 0, 0);
+    letter-spacing: auto;
+    animation: blur .7s ease-out;
+}
+
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;
+    }
+}
