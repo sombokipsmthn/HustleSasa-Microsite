@@ -1881,7 +1881,7 @@ E. Template Specific Elements
 }
 
 .ts-carousel-centered .owl-item .slide {
-    opacity: .5;
+    opacity: ;
     transition: .3s ease;
     transform: scale(.95);
 }
@@ -2111,7 +2111,7 @@ figure.icon {
 /* Footer push up */
 
 #ts-footer .ts-box {
-    margin-top: -4.125rem;
+    margin-top: -3.125rem;
 }
 
 .ts-tabs-presentation .tab-pane img {

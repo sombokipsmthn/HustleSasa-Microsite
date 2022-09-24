@@ -568,3 +568,9 @@ a:visited {
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 1);
 }
+
+.ts-carousel-centered .owl-item .slide {
+    opacity: ;
+    transition: .3s ease;
+    transform: scale(.95);
+}
