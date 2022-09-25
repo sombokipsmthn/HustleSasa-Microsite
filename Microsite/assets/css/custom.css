@@ -573,3 +573,21 @@ a:visited {
     transition: .3s ease;
     transform: scale(.95);
 }
+
+.card {
+    height: 380px;
+}
+
+.container .card {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1440px;
+    }
+}
