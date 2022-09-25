@@ -38,6 +38,12 @@ blockquote {
     padding-bottom: 1.75rem;
 }
 
+.ts-carousel-blockquote .owl-item.active figure,
+.ts-carousel-blockquote .owl-item.active p,
+.ts-carousel-blockquote .owl-item.active .blockquote-footer {
+    font-size: medium;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
