@@ -570,7 +570,6 @@ a:visited {
 }
 
 .ts-carousel-centered .owl-item .slide {
-    opacity: ;
     transition: .3s ease;
     transform: scale(.95);
 }
