@@ -585,3 +585,18 @@ a:visited {
     margin-right: auto;
     margin-left: auto;
 }
+
+.ul .mr-auto .navbar-nav {
+    float: left;
+}
+
+[class*="navbar-expand"] .navbar-nav .nav-link {
+    float: left;
+    align-content: center;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+}
