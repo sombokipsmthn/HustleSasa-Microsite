@@ -596,9 +596,106 @@ a:visited {
     float: left;
 }
 
+[class*="navbar-expand"].navbar.navbar-expand-lg.navbar-dark.fixed-top {
+    padding: 20px;
+}
+
 [class*="navbar-expand"] .navbar-nav .nav-link {
     float: left;
     align-content: center;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
+}
+
+
+/*---Navbar ---------------------------------------------------------------------*/
+
+.navbar {
+    padding: 0;
+    border-bottom: none;
+    width: 100%;
+    z-index: 999999;
+}
+
+.navbar a.navbar-brand {
+    float: right;
+    margin-left: -15px;
+}
+
+.navbar a.navbar-brand img {
+    margin-bottom: 5px;
+}
+
+.navbar-nav {
+    margin-right: -15px;
+}
+
+
+/*-------------------------------------------------*/
+
+
+/* =  Responsive Part
+/*-------------------------------------------------*/
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        padding: 25px 30px 20px;
+    }
+    .navbar-toggler {
+        margin-right: 15px !important;
+    }
+    header {
+        padding: 0;
+    }
+    .navbar-nav {
+        align-items: center;
+        padding: 15px;
+        max-width: 100%;
+        max-height: 300px;
+    }
+    .navbar-nav>li>a {
+        padding: 6px 0 !important;
+        border: none !important;
+        margin: 0;
+    }
+    .dropdown {
+        opacity: 1;
+        visibility: visible;
+        background: transparent;
+        border: none;
+        position: relative;
+        padding-left: 20px;
+        margin-top: -5px !important;
+    }
+    .dropdown li {
+        border: none;
+    }
+    .dropdown li a {
+        background: transparent !important;
+        padding: 6px 0;
+        color: #fff;
+    }
+    .navbar a.open-close-menu {
+        display: none;
+    }
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a.active {
+        color: #ffffff !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    blockquote {
+        background-size: cover;
+    }
+    .navbar a.navbar-brand img {
+        max-height: 50px;
+    }
 }
