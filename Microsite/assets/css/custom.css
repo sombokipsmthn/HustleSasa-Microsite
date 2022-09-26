@@ -699,3 +699,14 @@ a:visited {
         max-height: 50px;
     }
 }
+
+
+/*-------------------------------------------
+  -- Loading Screen
+---------------------------------------
+
+body.has-loading-screen:before {
+    background-color: #63c39e7e;
+}
+
+----*/
