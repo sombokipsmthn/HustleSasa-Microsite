@@ -874,12 +874,96 @@ a:visited {
 }
 
 
-/*-------------------------------------------
-  -- Loading Screen
----------------------------------------
+/*!* Parallax video styles*!*/
 
-body.has-loading-screen:before {
-    background-color: #63c39e7e;
+section.about-section2 .video-box {
+    position: relative;
 }
 
-----*/
+section.about-section2 .video-box img {
+    width: 100%;
+    height: auto;
+}
+
+section.about-section2 .video-box .hover-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: columns;
+}
+
+section.about-section2 .video-box .hover-video h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+section.about-section2 .video-box .hover-video a {
+    margin: 0 80px;
+    padding: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    animation-name: stretch-out;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+section.about-section2 .video-box .hover-video a span {
+    display: inline-block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    animation-name: stretch;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes stretch {
+    0% {
+        padding: 15px;
+    }
+    100% {
+        padding: 0;
+    }
+}
+
+section.about-section2 .video-box .hover-video a i {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: #63c39e;
+    color: #fff;
+    font-size: 18px;
+    line-height: 70px;
+    padding-left: 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+section.about-section2 .video-box .hover-video a:hover {
+    background: #fff;
+}
