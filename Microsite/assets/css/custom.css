@@ -706,21 +706,13 @@ a:visited {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff;
+    color: #63c39e;
     border-radius: 0%;
     border: 0ch;
 }
 
 .navbar-nav.mr-auto {
     margin-left: 450px !important;
-}
-
-.btn-secondary:not(:disabled):not(.disabled).active,
-.btn-secondary:not(:disabled):not(.disabled):active,
-.show>.btn-secondary.dropdown-toggle {
-    color: #fff;
-    background-color: #63c39e;
-    border-color: #63c39e;
 }
 
 
