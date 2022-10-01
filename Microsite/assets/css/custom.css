@@ -680,6 +680,18 @@ a:visited {
     border-color: #63c39e;
 }
 
+.btn-secondary {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .btn-secondary:not(:disabled):not(.disabled).active,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .show>.btn-secondary.dropdown-toggle {
