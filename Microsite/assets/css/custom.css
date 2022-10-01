@@ -593,14 +593,8 @@ a:visited {
 
 .container .card {
     width: 100%;
-    padding-right: 50px;
-    padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.ul .mr-auto .navbar-nav {
-    float: left;
 }
 
 
@@ -836,6 +830,11 @@ a:visited {
     }
     .navbar-nav.mr-auto {
         margin-left: 50px !important;
+    }
+    .btn-secondary {
+        color: #ffffff;
+        background-color: transparent;
+        border: 0;
     }
 }
 
