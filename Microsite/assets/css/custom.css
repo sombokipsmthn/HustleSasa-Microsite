@@ -500,7 +500,6 @@ iframe[seamless] {
 /*-----load more------*/
 
 .flex_content {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -569,6 +568,7 @@ a:visited {
     color: rgb(0, 0, 0);
     letter-spacing: auto;
     animation: blur .7s ease-out;
+    display: none;
 }
 
 
