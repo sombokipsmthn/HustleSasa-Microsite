@@ -460,21 +460,26 @@ ToogleMenu.on('click', function(event) {
 
 /*-- View More --------------------------------------------------------------------------------------------- --*/
 
-function hideElements() {
-    $('#collapse-list a').each(function(i) {
-        if (i > 4) {
-            $(this).slideToggle(200);
-        }
-    });
+window.document.onkeydown = function(e) {
+    if (!e) {
+        e = event;
+    }
+    if (e.keyCode == 27) {
+        lightbox_close();
+    }
 }
 
-hideElements();
-var toggleStatus = true;
-$('#toggle-collapse').click(function() {
-    if (toggleStatus) {
-        $('#collapse-list .list-group-item:not(:visible)').slideToggle(200);
-    } else {
-        hideElements();
-    }
-    toggleStatus = !toggleStatus;
-});
+function lightbox_open() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    window.scrollTo(0, 0);
+    document.getElementById('light').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+    lightBoxVideo.play();
+}
+
+function lightbox_close() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    document.getElementById('light').style.display = 'none';
+    document.getElementById('fade').style.display = 'none';
+    lightBoxVideo.pause();
+}

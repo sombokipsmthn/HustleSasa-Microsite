@@ -150,16 +150,30 @@
 
 
             <!--Video ********************************************************************************************-->
-            <section class="about-section2" data-bg-parallax="scroll" data-bg-parallax-speed="3">
+            <section id="video" class="about-section2" data-bg-parallax="scroll" data-bg-parallax-speed="3">
 
                 <div class="video-box">
                     <img src="assets/img/video_bg.jpg" alt="">
+
+
                     <div class="hover-video">
-                        <a class="video-link iframe" href=" "><span><i class="fa fa-play"></i></span></a>
+                        <a class="video-link iframe" href="#video" onclick="lightbox_open();"><span><i class="fa fa-play"></i></span></a>
+
                     </div>
                 </div>
 
+                <div id="light">
+                    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                    <video id="VisaChipCardVideo" controls>
+          <source src="assets/img/ArtXchange v06.mov">
+          <!--Browser does not support <video> tag -->
+        </video>
+                </div>
+
+                <div id="fade" onClick="lightbox_close();"></div>
+
             </section>
+
 
             <!--End Video ********************************************************************************************-->
 
