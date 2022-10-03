@@ -1002,7 +1002,7 @@ section.about-section2 .video-box .hover-video a:hover {
 #light {
     display: none;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     margin-left: -300px;
     margin-top: -180px;
